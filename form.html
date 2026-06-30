@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>First Form</title>
+</head>
+<body>
+    <center>
+        <h4>Student Registration Form</h4>
+    </center>
+    <form>
+        <Fieldset>
+            <Legend>Personal Information</Legend>
+            <p>Name: <input type="text" name="name" id="name" required></p>
+            <p>Email: <input type="email" name="email" id="email" required></p>
+            <p>Gender
+                <br/>
+                <input type="radio" name="Gender" id="Gender" value="male">Male
+                <input type="radio" name="Gender" id="Gender" value="Female">Female
+                <input type="radio" name="Gender" id="Gender" value="Other">Other
+            </p>
+            <p>Skill
+                <br/>
+                <input type="checkbox" value="HTML">HTML
+                <input type="checkbox" value="CSS">CSS
+                <input type="checkbox" value="JavaScript">JavaScript
+                <input type="checkbox" value="PHP">PHP
+            </p>
+            <p>City:
+                <input type="text" name="City" id="City" required>
+            </p>
+            <p>Course
+                <select name="Course" id="Course">
+                    <option value="">--Select Course--</option>
+                    <option value="Web Dev">Web Dev</option>
+                    <option value="DSA">DSA</option>
+                    <option value="Python Dev">Python dev</option>
+                </select>
+            </p>
+            <p>Address
+                <br/>
+                <textarea name="Address" id="Address" ></textarea>
+            </p>
+            <center>
+                <input type="submit">
+                <input type="reset">
+            </center>
+        </Fieldset>
+    </form>
+</body>
+</html>
